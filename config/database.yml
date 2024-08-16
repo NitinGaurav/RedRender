@@ -51,7 +51,3 @@ test:
 production:
   <<: *default
   url: postgresql://root:lsnuTgGL9dFGKydQX3vsZc6juALKRXLs@dpg-cqvl8vtds78s739m1900-a/red_render
-  database: red_render
-  host: dpg-cqvl8vtds78s739m1900-a
-  username: root
-  password: lsnuTgGL9dFGKydQX3vsZc6juALKRXLs
