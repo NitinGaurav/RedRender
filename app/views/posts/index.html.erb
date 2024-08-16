@@ -5,12 +5,14 @@
 <h1>Posts</h1>
 
 <div id="posts">
+  <%if @posts.present?%>
   <% @posts.each do |post| %>
     <%= render post %>
     <p>
       <%= link_to "Show this post", post %>
     </p>
   <% end %>
+  <%end%>
 </div>
 
 <%= link_to "New post", new_post_path %>
